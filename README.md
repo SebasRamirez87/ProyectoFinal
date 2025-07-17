@@ -79,7 +79,7 @@ Para que el programa se ejecute se debe activar los scripts desde la carpeta **`
 
 **2.** **`IQTree:`**: aqui residen los archivos generados por el analisis filogenetico.
 
-**3.****`Filogenias`**: en esta carpeta se encuentra el archivo **`.treefile`** que es el que servira para vizualizar el arbol con el programa **FigTree**.
+**3.** **`Filogenias`**: en esta carpeta se encuentra el archivo **`.treefile`** que es el que servira para vizualizar el arbol con el programa **FigTree**.
 
 **4.**  Para este proyecto se obtuvo un arbol filogenetico del gen ITS, en donde se observa con claridad los diferentes clados que se forman. Debido a que la taxonomia presentada en el arbol es muy compleja se decidio identificar las 3 principales Clases **(Sordariomycetos, Dothideomycetos y Pezizomicetos)** que representa a esta muestra de endofitos (ver **`Filogenia.pdf`**) .
 * En los casos mas relevantes se llego hasta generos. Por ejemplo la "especie" *Xylaria sp1* que anteriormente conformaba un solo OTU, ahora se subdividio en el arbol. El genero *Diaporthe* que solo contaba con 6 ssp (u OTUs) ahora se subdivio en mas nodos (en rojo y morado respectivamente, en la figura de la filogenia, **`Filogenia.pdf`**), lo cual indica que efectivamente los OTUs podrian estar subestimando el numero de "especies". 
