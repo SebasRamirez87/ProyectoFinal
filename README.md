@@ -90,12 +90,12 @@ Para que el programa se ejecute se debe activar los scripts desde la carpeta **`
 
 * Si se desea trabajar filogenias con multilocus para la determinacion de especies se recomienda utilizar el programa **[ASTRAL](https://github.com/smirarab/ASTRAL/commit/f491c623d9545a13353e0f607f81ce848f035798)**. Para dicho analisis el procedimeinto seria igual, hasta que se obtenga los archivos del analisis de IQTREE, despues se debe concatenar los **`.treefile`** en un solo archivo para poder correr el program **ASTRAL**. Despues del ananlisis se podra ya observar el arbol de especies. Para un mejor entendimiento se deja un **[tutoria para ASTRAL](https://tandy.cs.illinois.edu/astral-tutorial.pdf?utm_source=chatgpt.com)**.
 
-* En el caso de que se tenga que editar los encabezados de las secuencias con **Atom**, tener en cuenta que el archivo final debe llevar el mismo nombre original (**`secuencias.fasta`** ) y esatar ubicado en el directorio  **`Proyecto/`**.
+* En el caso de que se tenga que editar los encabezados de las secuencias con **Atom**, tener en cuenta que el archivo final debe llevar el mismo nombre original (**`secuencias.fasta`**) y estar ubicado en el directorio  **`Proyecto/`**.
 
-* entrando a Hoffman seguir la siguiente ruta: **`/u/scratch/d/dechavez/Bioinformatica-PUCE/RediseBio/Sebasra/Proyecto
+* Entrando a Hoffman seguir la siguiente ruta: **`/u/scratch/d/dechavez/Bioinformatica-PUCE/RediseBio/Sebasra/Proyecto
 `**. En el directorio **`Proyecto/`** encontrara la carpeta  **`Fasta/`** con las secuencias o archivos necesarios para ejecutar los scripts.  
 
-* En Github dentro del directorio **`Proyecto/`**tambien encontra la carpeta  **`Results/`** con los archivos **`EndofitosA.fasta`** con las secuencias editadas en **MUSCLE**, **`Filogenias_EndofitosA.fasta.treefile`** con el arbol de endofitos de este estudio y el archivo  **`Filogenia.pdf`** con el arbol analizado y editado. 
+* En Github dentro del directorio **`Proyecto/`** tambien encontra la carpeta  **`Results/`** con los archivos **`EndofitosA.fasta`** con las secuencias editadas en **MUSCLE**, **`Filogenias_EndofitosA.fasta.treefile`** con el arbol de endofitos de este estudio y el archivo  **`Filogenia.pdf`** con el arbol analizado y editado. 
 
 ## Autor
  
