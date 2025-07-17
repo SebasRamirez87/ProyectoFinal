@@ -105,21 +105,21 @@ Para que el programa se ejecute se debe activar los scripts desde la carpeta **`
 
 ## Referencias
  
-Nilsson, R. H., Kristiansson, T., Ryberg, M., Hallenberg, N., & Larsson, K. H. 2008. "Intraspecific ITS variability in the kingdom Fungi as expressed in the international sequence databases and its implications for molecular species identification." *Evolutionary Bioinformatics* 4: 193–201.
+* Nilsson, R. H., Kristiansson, T., Ryberg, M., Hallenberg, N., & Larsson, K. H. 2008. "Intraspecific ITS variability in the kingdom Fungi as expressed in the international sequence databases and its implications for molecular species identification." *Evolutionary Bioinformatics* 4: 193–201.
 
-Tedersoo, L., Anslan, S., Bahram, M., Põlme, S., Riit, U., Liiv, I., et al. 2014. "Shotgun metagenomes and multiple primer pair-barcode combinations of amplicons reveal biases in metabarcoding analyses of fungi." *MycoKeys* 10: 1–43.
+* Tedersoo, L., Anslan, S., Bahram, M., Põlme, S., Riit, U., Liiv, I., et al. 2014. "Shotgun metagenomes and multiple primer pair-barcode combinations of amplicons reveal biases in metabarcoding analyses of fungi." *MycoKeys* 10: 1–43.
 
-Nguyen, L.-T., Schmidt, H. A., von Haeseler, A., & Minh, B. Q. 2015. "IQ-TREE: A fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies." *Molecular Biology and Evolution* 32(1): 268–274.
+* Nguyen, L.-T., Schmidt, H. A., von Haeseler, A., & Minh, B. Q. 2015. "IQ-TREE: A fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies." *Molecular Biology and Evolution* 32(1): 268–274.
 
-Zhang, J., Kobert, K., Flouri, T., & Stamatakis, A. 2014. "PEAR: a fast and accurate Illumina Paired-End reAd mergeR." *Bioinformatics* 30(5): 614–620.
+* Zhang, J., Kobert, K., Flouri, T., & Stamatakis, A. 2014. "PEAR: a fast and accurate Illumina Paired-End reAd mergeR." *Bioinformatics* 30(5): 614–620.
 
-Haddock, Steven H. D., y Casey W. Dunn. “Regular Expressions: Powerful Search and Replace.” En *Practical Computing for Biologists*, 17‑29. Sunderland, MA: Sinauer Associates, 2012. PDF.
+* Haddock, Steven H. D., y Casey W. Dunn. “Regular Expressions: Powerful Search and Replace.” En *Practical Computing for Biologists*, 17‑29. Sunderland, MA: Sinauer Associates, 2012. PDF.
 
-Schoch, C. L., Seifert, K. A., Huhndorf, S., Robert, V., Spouge, J. L., Levesque, C. A., & Chen, W. (2012). Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi. Proceedings of the National Academy of Sciences, 109(16), 6241–6246.
+* Schoch, C. L., Seifert, K. A., Huhndorf, S., Robert, V., Spouge, J. L., Levesque, C. A., & Chen, W. (2012). Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi. Proceedings of the National Academy of Sciences, 109(16), 6241–6246.
 
-Gazis, R., Rehner, S., & Chaverri, P. (2012). Hidden fungal diversity in an Amazonian rainforest. New Phytologist, 195(3), 900–912.
+* Gazis, R., Rehner, S., & Chaverri, P. (2012). Hidden fungal diversity in an Amazonian rainforest. New Phytologist, 195(3), 900–912.
 
-Arnold, A. E., Mejía, L. C., Kyllo, D., Rojas, E. I., Maynard, Z., Robbins, N., & Herre, E. A. (2007). Understanding the diversity of foliar endophytic fungi: progress, challenges, and frontiers. Fungal Biology Reviews, 21(2–3), 51–66.
+* Arnold, A. E., Mejía, L. C., Kyllo, D., Rojas, E. I., Maynard, Z., Robbins, N., & Herre, E. A. (2007). Understanding the diversity of foliar endophytic fungi: progress, challenges, and frontiers. Fungal Biology Reviews, 21(2–3), 51–66.
 
-U’Ren, J. M., Lutzoni, F., Miadlikowska, J., Laetsch, A. D., & Arnold, A. E. (2016). Host availability drives distributions of fungal endophytes in the imperilled boreal realm. Nature Ecology & Evolution, 1, Article 17.
+* U’Ren, J. M., Lutzoni, F., Miadlikowska, J., Laetsch, A. D., & Arnold, A. E. (2016). Host availability drives distributions of fungal endophytes in the imperilled boreal realm. Nature Ecology & Evolution, 1, Article 17.
 
