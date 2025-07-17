@@ -4,7 +4,7 @@
 
 El uso de morfotipos u OTUs puede subestimar los cálculos de diversidad de hongos endófitos, ya que se basan en parámetros subjetivos y no reflejan relaciones evolutivas reales (Nilsson et al. 2008; Tedersoo et al. 2014). En cambio, los análisis filogenéticos ofrecen mayor resolución en la delimitación de taxones.
 
-Para ampliar el alcance de los estudios de diversidad, he desarrollado el programa **FILOGENIAS**, una herramienta que permite obtener resultados precisos en poco tiempo. Este programa emplea herramientas como **MUSCLE** e **IQ-TREE**, las cuales han demostrado ser eficaces en estudios de diversidad de hongos endófitos (Nguyen et al. 2015; Zhang et al. 2014). **FILOGENIAS** puede aplicarse al estudio de cualquier organismo para resolver relaciones evolutivas, identificar linajes específicos y detectar especies crípticas.
+Para ampliar el alcance de los estudios de diversidad, he desarrollado el programa **FILOGENIAS**, una herramienta que permite obtener resultados precisos en poco tiempo. Este programa emplea herramientas como **MUSCLE** e **IQTREE**, las cuales han demostrado ser eficaces en estudios de diversidad de hongos endófitos (Nguyen et al. 2015; Zhang et al. 2014). **FILOGENIAS** puede aplicarse al estudio de cualquier organismo para resolver relaciones evolutivas, identificar linajes específicos y detectar especies crípticas.
 
 ## Flujo de Trabajo del Programa
 
@@ -16,7 +16,7 @@ A continuación, se detallan los principales pasos y análisis que ejecuta el pr
 
 **2**.**Alineamiento Múltiple de Secuencias con MUSCLE:** alinea secuencias homólogas para identificar sitios comparables entre especies, ya que las posiciones mal alineadas pueden afectar la topología del árbol y producir errores en la inferencia filogenética.
 
-**3**.**Inferencia Filogenética con IQ-TREE:** infiere árboles filogenéticos utilizando algoritmos rápidos que optimizan automáticamente el modelo de evolución y evalúa el soporte estadístico de cada nodo del árbol.
+**3**.**Inferencia Filogenética con IQTREE:** infiere árboles filogenéticos utilizando algoritmos rápidos que optimizan automáticamente el modelo de evolución y evalúa el soporte estadístico de cada nodo del árbol.
 
 **4**.**Arbol Filogenetico con FigTree** visualizacion y edicion del archivo **`.treefile`**. La visualización es esencial para interpretar la evolución de los taxones  y presentar resultados comprensibles.
 
@@ -88,7 +88,7 @@ Para que el programa se ejecute se debe activar los scripts desde la carpeta **`
 
 ## Recomendaciones 
 
-* Si se desea trabajar filogenias con multilocus para la determinacion de especies se recomienda utilizar el programa **[ASTRAL](https://github.com/smirarab/ASTRAL/commit/f491c623d9545a13353e0f607f81ce848f035798)**. Para dicho analisis el procedimeinto seria igual, hasta que se obtenga los archivos de IQTree, despues se debe concatenar los **`.treefile`** en un solo archivo para poder correr el program **ASTRAL**. Despues del ananlisis se podra ya observar el arbol de especies. Para un mejor entendimiento se deja un **[tutoria para ASTRAL](https://tandy.cs.illinois.edu/astral-tutorial.pdf?utm_source=chatgpt.com)**.
+* Si se desea trabajar filogenias con multilocus para la determinacion de especies se recomienda utilizar el programa **[ASTRAL](https://github.com/smirarab/ASTRAL/commit/f491c623d9545a13353e0f607f81ce848f035798)**. Para dicho analisis el procedimeinto seria igual, hasta que se obtenga los archivos del analisis de IQTREE, despues se debe concatenar los **`.treefile`** en un solo archivo para poder correr el program **ASTRAL**. Despues del ananlisis se podra ya observar el arbol de especies. Para un mejor entendimiento se deja un **[tutoria para ASTRAL](https://tandy.cs.illinois.edu/astral-tutorial.pdf?utm_source=chatgpt.com)**.
 
 * En el caso de que se tenga que editar los encabezados de las secuencias con **Atom**, tener en cuenta que el archivo final debe llevar el mismo nombre original (**`secuencias.fasta`** ) y esatar ubicado en el directorio  **`Proyecto/`**.
 
