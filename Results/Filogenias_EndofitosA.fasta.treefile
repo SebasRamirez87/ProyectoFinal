@@ -1,0 +1,269 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=167;
+	taxlabels
+	CEQC_P3578
+	CEQC_P3749
+	CEQC_P5111
+	CEQC_P5125
+	CEQC_P5129
+	CEQC_P5130
+	CEQC_P5131
+	CEQC_P5132
+	CEQC_P5135
+	CEQC_P5136
+	CEQC_P5137
+	CEQC_P5139
+	CEQC_P5140
+	CEQC_P5141
+	CEQC_P5142
+	CEQC_P5143
+	CEQC_P5144
+	CEQC_P5145
+	CEQC_P5147
+	CEQC_P5148
+	CEQC_P5149
+	CEQC_P5150
+	CEQC_P5151
+	CEQC_P5152
+	CEQC_P5153
+	CEQC_P5154
+	CEQC_P5155
+	CEQC_P5156
+	CEQC_P5157
+	CEQC_P5158
+	CEQC_P5159
+	CEQC_P5161
+	CEQC_P5162
+	CEQC_P5163
+	CEQC_P5164
+	CEQC_P5165
+	CEQC_P5166
+	CEQC_P5167
+	CEQC_P5168
+	CEQC_P5169
+	CEQC_P5170
+	CEQC_P5171
+	CEQC_P5173
+	CEQC_P5174
+	CEQC_P5175
+	CEQC_P5176
+	CEQC_P5177
+	CEQC_P5178
+	CEQC_P5179
+	CEQC_P5180
+	CEQC_P5181
+	CEQC_P5182
+	CEQC_P5183
+	CEQC_P5184
+	CEQC_P5186
+	CEQC_P5190
+	CEQC_P5192
+	CEQC_P5193
+	CEQC_P5195
+	CEQC_P5196
+	CEQC_P5198
+	CEQC_P5199
+	CEQC_P5201
+	CEQC_P5203
+	CEQC_P5205
+	CEQC_P5206
+	CEQC_P5208
+	CEQC_P5209
+	CEQC_P5210
+	CEQC_P5211
+	CEQC_P5213
+	CEQC_P5214
+	CEQC_P5215
+	CEQC_P5216
+	CEQC_P5217
+	CEQC_P5218
+	CEQC_P5219
+	CEQC_P5220
+	CEQC_P5222
+	CEQC_P5223
+	CEQC_P5225
+	CEQC_P5226
+	CEQC_P5227
+	CEQC_P5228
+	CEQC_P5235
+	CEQC_P5237
+	CEQC_P5238
+	CEQC_P5239
+	CEQC_P5240
+	CEQC_P5242
+	CEQC_P5244
+	CEQC_P5245
+	CEQC_P5246
+	CEQC_P5247
+	CEQC_P5249
+	CEQC_P5250
+	CEQC_P5251
+	CEQC_P5254
+	CEQC_P5256
+	CEQC_P5259
+	CEQC_P5261
+	CEQC_P5263
+	CEQC_P5264
+	CEQC_P5266
+	CEQC_P5268
+	CEQC_P5269
+	CEQC_P5270
+	CEQC_P5271
+	CEQC_P5272
+	CEQC_P5273
+	CEQC_P5274
+	CEQC_P5277
+	CEQC_P5278
+	CEQC_P5279
+	CEQC_P5280
+	CEQC_P5283
+	CEQC_P5284
+	CEQC_P5285
+	CEQC_P5286
+	CEQC_P5287
+	CEQC_P5288
+	CEQC_P5289
+	CEQC_P5291
+	CEQC_P5292
+	CEQC_P5295
+	CEQC_P5296
+	CEQC_P5297
+	CEQC_P5298
+	CEQC_P5304
+	CEQC_P5307
+	CEQC_P5308
+	CEQC_P5309
+	CEQC_P5312
+	CEQC_P5313
+	CEQC_P5314
+	CEQC_P5315
+	CEQC_P5318
+	CEQC_P5319
+	CEQC_P5320
+	CEQC_P5322
+	CEQC_P5323
+	CEQC_P5324
+	CEQC_P5325
+	CEQC_P5327
+	CEQC_P5328
+	CEQC_P5330
+	CEQC_P5333
+	CEQC_P5337
+	CEQC_P5338
+	CEQC_P5343
+	CEQC_P5345
+	CEQC_P5348
+	CEQC_P5350
+	CEQC_P5351
+	CEQC_P5352
+	CEQC_P5357
+	CEQC_P5358
+	CEQC_P5358a
+	CEQC_P5361
+	CEQC_P5368
+	CEQC_P5369
+	CEQC_P5371
+	CEQC_P5373
+	CEQC_P5375
+	CEQC_P5383
+	CEQC_P5388
+	'OP897031.1_Saccharomyces_cerevisiae'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (CEQC_P5131:1.370333,('OP897031.1_Saccharomyces_cerevisiae':2.054397,(((((((((((((((((((((((CEQC_P5256:0.055276,CEQC_P5292:0.029833):0.050994,CEQC_P5163:0.026298):0.002624,CEQC_P5348:2.0E-6):2.0E-6,(CEQC_P5238:2.0E-6,CEQC_P5223:0.002431):0.004879):0.319604,(CEQC_P5111:0.461155,((CEQC_P5136:0.384291,(CEQC_P5150:1.0E-6,CEQC_P5186:3.0E-6):0.007157):0.031904,CEQC_P5192:0.035044):0.332097):0.060503):0.281487,((CEQC_P5263:0.35853,CEQC_P5343:0.361174):0.095786,(CEQC_P5345:0.0095,((CEQC_P5152:2.0E-6,CEQC_P5135:1.0E-6):0.004522,CEQC_P5318:0.082435):0.035136):0.340206):0.061346):0.043849,CEQC_P5201:0.304804):0.052441,(CEQC_P5167:0.006576,CEQC_P5199:0.005869):0.419384):0.065188,CEQC_P5283:0.381153):0.036248,CEQC_P5312:0.181261):0.012822,(((CEQC_P5140:0.037704,CEQC_P5279:0.070381):0.122223,((CEQC_P5141:1.0E-6,CEQC_P5240:1.0E-6):1.0E-6,CEQC_P5242:0.003738):0.08369):0.026282,((CEQC_P5307:3.0E-6,CEQC_P5179:0.004269):0.05422,(CEQC_P3578:0.011238,CEQC_P5322:2.0E-6):0.019016):0.117062):0.024301):0.039872,CEQC_P5289:0.091869):0.042869,(CEQC_P5250:0.015349,CEQC_P5350:2.0E-6):0.130811):0.008429,(CEQC_P5178:0.181004,(CEQC_P5161:0.218044,((CEQC_P5132:1.0E-6,CEQC_P5264:0.003847):0.009604,CEQC_P5352:0.002329):0.039666):0.040962):0.024445):0.057783,(CEQC_P5304:0.780229,(CEQC_P5383:0.171516,(CEQC_P5375:0.19752,CEQC_P5261:0.139823):0.025179):0.084404):0.157219):0.017596,(((CEQC_P5285:0.002013,CEQC_P5181:1.0E-6):3.0E-6,CEQC_P5333:3.0E-6):0.002565,(((((((((((((((CEQC_P5357:0.0,CEQC_P5195:0.0):0.0,CEQC_P5165:0.0):0.0,CEQC_P5288:0.0):0.0,CEQC_P5337:0.0):0.0,CEQC_P5169:0.0):0.0,CEQC_P5193:0.0):0.0,CEQC_P5210:0.0):0.0,CEQC_P5320:0.0):0.0,CEQC_P5274:0.0):1.0E-6,(CEQC_P5338:1.0E-6,((CEQC_P5154:1.0E-6,CEQC_P5168:2.0E-6):1.0E-6,CEQC_P5266:1.0E-6):3.0E-6):1.0E-6):1.0E-6,CEQC_P5369:1.0E-6):1.0E-6,CEQC_P5368:1.0E-6):1.0E-6,CEQC_P5309:1.0E-6):1.0E-6,CEQC_P5125:1.0E-6):1.0E-6,(((((CEQC_P5137:0.0,CEQC_P5271:0.0):0.0,CEQC_P5175:0.0):0.0,CEQC_P5176:0.0):0.0,CEQC_P5182:0.0):0.0,CEQC_P5180:0.0):1.0E-6):2.0E-6):0.202239):0.051164,CEQC_P5286:0.163515):0.054533,((CEQC_P5219:0.033893,CEQC_P5217:3.0E-6):0.080082,CEQC_P5373:0.047489):0.167254):0.061465,CEQC_P5308:0.336939):0.058802,CEQC_P5351:0.2072):0.246597,(((((((((CEQC_P5198:1.0E-6,CEQC_P5190:1.0E-6):1.0E-6,CEQC_P5196:1.0E-6):3.0E-6,CEQC_P5205:1.0E-6):0.00391,CEQC_P5208:1.0E-6):3.0E-6,((CEQC_P5162:0.0,CEQC_P5330:0.0):0.0,CEQC_P5319:0.0):1.0E-6):2.0E-6,CEQC_P5148:3.0E-6):0.218741,CEQC_P5295:0.118062):0.028163,((CEQC_P5328:0.056672,(CEQC_P5158:0.007649,CEQC_P5268:0.003986):0.003137):0.082192,CEQC_P5324:0.081532):0.012034):0.256492,(CEQC_P5327:6.42E-4,((CEQC_P5144:1.0E-6,CEQC_P5145:1.0E-6):0.011822,CEQC_P5206:0.086101):0.010791):0.405646):0.047953):0.039181,((CEQC_P5272:1.0E-6,(CEQC_P5183:3.0E-6,CEQC_P5222:2.0E-6):2.0E-6):2.0E-6,CEQC_P5184:3.0E-6):0.381362):0.053833,((((CEQC_P5358a:2.0E-6,(((CEQC_P5388:3.0E-6,CEQC_P5361:2.0E-6):3.0E-6,CEQC_P5139:0.056152):0.056249,CEQC_P5358:3.0E-6):0.033788):0.039514,(((CEQC_P5228:0.019053,CEQC_P5218:1.0E-6):3.0E-6,CEQC_P5227:3.0E-6):0.003536,CEQC_P5220:0.011007):0.043122):0.609911,((CEQC_P5153:0.503457,((CEQC_P5149:0.378783,(CEQC_P5323:0.062064,CEQC_P5325:0.067714):0.447866):0.002919,(((CEQC_P5270:1.0E-6,CEQC_P5249:0.091161):0.052414,((CEQC_P5245:1.0E-6,CEQC_P5244:1.0E-6):0.020533,((((CEQC_P5269:1.0E-6,CEQC_P5237:1.0E-6):3.0E-6,CEQC_P5235:1.0E-6):1.0E-6,(((CEQC_P5239:1.0E-6,CEQC_P5246:1.0E-6):1.0E-6,CEQC_P5247:1.0E-6):1.0E-6,CEQC_P5251:1.0E-6):1.0E-6):2.0E-6,CEQC_P5254:0.01999):0.011492):0.028447):0.175928,((CEQC_P3749:0.022131,(CEQC_P5129:1.0E-6,CEQC_P5130:0.007732):0.007878):0.028593,(CEQC_P5177:0.003671,((((CEQC_P5174:1.0E-6,CEQC_P5170:0.003965):3.0E-6,CEQC_P5166:1.0E-6):1.0E-6,CEQC_P5171:1.0E-6):1.0E-6,CEQC_P5173:1.0E-6):1.0E-6):0.069114):0.251157):0.164491):0.361455):0.075237,(CEQC_P5155:0.327953,CEQC_P5259:0.256103):0.231378):0.403495):0.13374,(((((((((CEQC_P5215[&!color=#ff0033]:1.0E-6,CEQC_P5142[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:1.0E-6,CEQC_P5209[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:1.0E-6,CEQC_P5157[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:1.0E-6,CEQC_P5211[&!color=#ff0033]:2.0E-6)[&!color=#ff0033]:2.0E-6,CEQC_P5216[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:0.136206,CEQC_P5214[&!color=#ff0033]:0.091815)[&!color=#ff0033]:0.021799,(CEQC_P5147[&!color=#ff0033]:3.0E-6,(CEQC_P5156[&!color=#ff0033]:1.0E-6,CEQC_P5213[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:3.0E-6)[&!color=#ff0033]:0.091102)[&!color=#ff0033]:0.043514,(((((CEQC_P5151[&!color=#ff0033]:0.008495,CEQC_P5143[&!color=#ff0033]:0.016756)[&!color=#ff0033]:0.016412,(((CEQC_P5314[&!color=#ff0033]:1.0E-6,CEQC_P5291[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:1.0E-6,((CEQC_P5277[&!color=#ff0033]:1.0E-6,(CEQC_P5278[&!color=#ff0033]:0.0,CEQC_P5164[&!color=#ff0033]:0.0)[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:1.0E-6,CEQC_P5225[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:1.0E-6,CEQC_P5313[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:3.0E-6)[&!color=#ff0033]:0.006236,(CEQC_P5315[&!color=#ff0033]:0.01539,CEQC_P5287[&!color=#ff0033]:0.026537)[&!color=#ff0033]:0.031427)[&!color=#ff0033]:0.086856,((((CEQC_P5159[&!color=#ff0033]:2.0E-6,CEQC_P5280[&!color=#ff0033]:0.008674)[&!color=#ff0033]:0.004183,(CEQC_P5371[&!color=#ff0033]:0.004258,CEQC_P5296[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:2.0E-6)[&!color=#ff0033]:3.0E-6,CEQC_P5284[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:2.0E-6,CEQC_P5273[&!color=#ff0033]:3.0E-6)[&!color=#ff0033]:0.011583)[&!color=#ff0033]:0.03313,CEQC_P5226[&!color=#ff0033]:0.052612)[&!color=#ff0033]:0.018843)[&!color=#ff0033]:0.041423,(CEQC_P5297[&!color=#ff0033]:1.0E-6,CEQC_P5298[&!color=#ff0033]:1.0E-6)[&!color=#ff0033]:0.032957)[&!color=#ff0033]:0.223915):0.028866):0.096713):0.068402,CEQC_P5203:1.452182);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=520;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
